@@ -13,7 +13,11 @@ This project is focused on understanding the Ola dataset with the use of "ChatGP
 ## Project Steps
 
 ### 1. Data Generation Using AI:
+   - Used ChatGPT to generate synthetic dataset for Ola comapny
+   - Used a well worded prompt to create a dataset for about 10,000 rows containg multiple columns (namely: date, time, location of pickup, location of drop off and etc.)
+   - Downloaded the data in CSV format for further use.
 
-    - Used ChatGPT to generate synthetic dataset for the Ola comapny
-    - Used a well worded prompt to create a dataset for about 10,000 rows containg multiple columns (namely: date, time, location of pickup, location of drop off and etc.)
-    
+### 2. Data Cleaning Using Spreadsheet tool:
+   - Utilized Microsoft Excel for Data Cleaning.
+   - Removed Duplicate rows, addressed the null value situations to fine tune the data for EDA(exploratory data analysis)
+
