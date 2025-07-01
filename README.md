@@ -20,9 +20,19 @@ This project is focused on understanding the Ola dataset with the use of "ChatGP
 ### 2. Data Cleaning Using Spreadsheet tool:
    - Utilized Microsoft Excel for Data Cleaning.
    - Removed Duplicate rows, addressed the null value situations to fine tune the data for EDA(exploratory data analysis)
-   ![csv overview](https://github.com/kapoorva13009/Ola-Data-Analysis/blob/main/overview.PNG)
+   - Here's an overview to the actual dataset:
+    -  ![csv overview](https://github.com/kapoorva13009/Ola-Data-Analysis/blob/main/overview.PNG)
 
 ### 3. Data Analysis Using SQL:
    - Used MySQL database for analyzing the dataset
    - Queried the dataset for gaining insights on improving customer services, on-time pickups and enhancing feedbacks.
-   - Here's a sample from the analysis, for detailed analysis I have added the SQL file in the repository you can access the file through there or you can use this link to reach ->
+   - Here's a sample from the analysis, for detailed analysis I have added the SQL file in the repository you can access the file through there or you can use this link to reach -> [SQL Analysis](https://github.com/kapoorva13009/Ola-Data-Analysis/blob/main/SqlAnalysis.sql)
+     '''sql
+       -- Retriving all successful bookings:
+     
+           CREATE VIEW Successful_bookings AS
+           SELECT * FROM ola_booking_data
+           WHERE `Booking Status` = "Completed";
+
+           SELECT * FROM Successful_bookings;
+     '''  
