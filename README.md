@@ -1,6 +1,6 @@
 # Ola-Data-Analysis
 
-The OLA cab company is a leader in cab industries, Here I dive into the data of the OLA comapny and its impact on the lives of daily comuters and general users
+The OLA cab company is a leader in cab industries, Here I dive into the data of the OLA company and its impact on the lives of daily commuters and general users
 
 ## Project Overview
 
