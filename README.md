@@ -14,4 +14,6 @@ This project is focused on understanding the Ola dataset with the use of "ChatGP
 
 ### 1. Data Generation Using AI:
 
-    - Used chat
+    - Used ChatGPT to generate synthetic dataset for the Ola comapny
+    - Used a well worded prompt to create a dataset for about 10,000 rows containg multiple columns (namely: date, time, location of pickup, location of drop off and etc.)
+    
