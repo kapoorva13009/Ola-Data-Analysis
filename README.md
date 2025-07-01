@@ -27,6 +27,8 @@ This project is focused on understanding the Ola dataset with the use of "ChatGP
    - Used MySQL database for analyzing the dataset
    - Queried the dataset for gaining insights on improving customer services, on-time pickups and enhancing feedbacks.
    - Here's a sample from the analysis, for detailed analysis I have added the SQL file in the repository you can access the file through there or you can use this link to reach -> [SQL Analysis](https://github.com/kapoorva13009/Ola-Data-Analysis/blob/main/SqlAnalysis.sql)
+   - <pre lang="markdown"> ```sql -- This is a SQL query SELECT name, age FROM users WHERE age > 30 ORDER BY age DESC; ``` </pre>
+
      '''sql
        -- Retriving all successful bookings:
      
